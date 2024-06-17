@@ -99,6 +99,32 @@ github.com/naveenanimation20/latestCucumber6WithPOM/issues/6-->
 		</dependency>
 
 
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-core</artifactId>
+			<version>2.3.12</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-junit</artifactId>
+			<version>2.3.12</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-ensure</artifactId>
+			<version>2.3.12</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-cucumber6</artifactId>
+			<version>2.3.12</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -123,10 +149,34 @@ github.com/naveenanimation20/latestCucumber6WithPOM/issues/6-->
 				<version>${maven.surefire.version}</version>
 				<configuration>
 					<includes>
-						 <include> **/TestNGParallelRunner.java</include>
+						<include> **/TestNGParallelRunner.java</include>
+						<include> **/MySerenityTestRunner.java</include>
+
 					</includes>
 					<parallel>methods</parallel>
 					<useUnlimitedThreads>true</useUnlimitedThreads>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>net.serenity-bdd.maven.plugins</groupId>
+				<artifactId>serenity-maven-plugin</artifactId>
+				<version>2.3.12</version>
+				<configuration>
+					<dependencies>
+						<dependency>
+							<groupId>net.serenity-bdd</groupId>
+							<artifactId>serenity-core</artifactId>
+							<version>2.3.12</version>
+						</dependency>
+					</dependencies>
+					<execution>
+						<id>serenity-reports</id>
+						<phase>post-integration-test</phase>
+						<goals>
+							<goal>aggregate</goal>
+						</goals>
+					</execution>
 				</configuration>
 			</plugin>
 

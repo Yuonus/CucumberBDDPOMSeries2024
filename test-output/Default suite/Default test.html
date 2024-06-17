@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 01 23:15:58 EST 2024</td>
+<td>Started on:</td><td>Fri Feb 02 14:20:15 EST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>30 seconds (30786 ms)</td>
+<tr><td>Total time:</td><td>23 seconds (23129 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -78,37 +78,91 @@ function toggleAllBoxes() {
 <tr>
 <td title='parallel.TestNGParallelRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestNGParallelRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Accounts section count", "Optional[Account Page Feature]"</td>
 <td></td>
-<td>24</td>
-<td>parallel.TestNGParallelRunner@24aed80c</td></tr>
-<tr>
-<td title='parallel.TestNGParallelRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestNGParallelRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Forgot Password Link", "Optional[Login Page feature]"</td>
-<td></td>
-<td>24</td>
-<td>parallel.TestNGParallelRunner@24aed80c</td></tr>
-<tr>
-<td title='parallel.TestNGParallelRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestNGParallelRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Page Title", "Optional[Login Page feature]"</td>
-<td></td>
-<td>22</td>
+<td>19</td>
 <td>parallel.TestNGParallelRunner@24aed80c</td></tr>
 <tr>
 <td title='parallel.TestNGParallelRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestNGParallelRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Accounts section count", "Optional[Account Page Feature]"</td>
 <td></td>
-<td>24</td>
+<td>19</td>
+<td>parallel.TestNGParallelRunner@24aed80c</td></tr>
+<tr>
+<td title='parallel.TestNGParallelRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestNGParallelRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Forgot Password Link", "Optional[Login Page feature]"</td>
+<td></td>
+<td>18</td>
+<td>parallel.TestNGParallelRunner@24aed80c</td></tr>
+<tr>
+<td title='parallel.TestNGParallelRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestNGParallelRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Page Title", "Optional[Login Page feature]"</td>
+<td></td>
+<td>18</td>
 <td>parallel.TestNGParallelRunner@24aed80c</td></tr>
 <tr>
 <td title='parallel.TestNGParallelRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestNGParallelRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Accounts page title", "Optional[Account Page Feature]"</td>
 <td></td>
-<td>26</td>
+<td>19</td>
 <td>parallel.TestNGParallelRunner@24aed80c</td></tr>
+<tr>
+<td title='parallel.TestNGParallelRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestNGParallelRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Accounts page title", "Optional[Account Page Feature]"</td>
+<td></td>
+<td>19</td>
+<td>parallel.TestNGParallelRunner@24aed80c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
 <td title='parallel.TestNGParallelRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestNGParallelRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with Correct Credentials", "Optional[Login Page feature]"</td>
-<td></td>
-<td>26</td>
-<td>parallel.TestNGParallelRunner@24aed80c</td></tr>
-<tr>
-<td title='parallel.TestNGParallelRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestNGParallelRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Accounts page title", "Optional[Account Page Feature]"</td>
-<td></td>
-<td>26</td>
+<td><div><pre>org.testng.SkipException: got: &lt;false&gt;, expected: is &lt;true&gt;
+	at io.cucumber.testng.TestCaseResultObserver.lambda$assertTestCasePassed$1(TestCaseResultObserver.java:27)
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:99)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.junit.AssumptionViolatedException: got: &lt;false&gt;, expected: is &lt;true&gt;
+	at org.junit.Assume.assumeThat(Assume.java:106)
+	at org.junit.Assume.assumeTrue(Assume.java:50)
+	at parallel.ApplicationHooks.skip_scenario(ApplicationHooks.java:26)
+</pre></div><a href='#' onClick='toggleBox("stack-trace398754963", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace398754963'><pre>org.testng.SkipException: got: &lt;false&gt;, expected: is &lt;true&gt;
+	at io.cucumber.testng.TestCaseResultObserver.lambda$assertTestCasePassed$1(TestCaseResultObserver.java:27)
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:99)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.junit.AssumptionViolatedException: got: &lt;false&gt;, expected: is &lt;true&gt;
+	at org.junit.Assume.assumeThat(Assume.java:106)
+	at org.junit.Assume.assumeTrue(Assume.java:50)
+	at parallel.ApplicationHooks.skip_scenario(ApplicationHooks.java:26)
+</pre></div></td>
+<td>18</td>
 <td>parallel.TestNGParallelRunner@24aed80c</td></tr>
 </table><p>
 </body>

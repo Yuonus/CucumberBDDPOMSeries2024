@@ -10,13 +10,12 @@ import io.cucumber.testng.CucumberOptions;
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"timeline:test-output-thread/", "rerun:target/failedrerun.txt"
 				}, 
-//		tags = "not @Skip",
 		monochrome = true,
 		glue = { "parallel" },
-		features = { "src/test/resources/parallel" }
+		features = { "@target/failedrerun.txt" }
 )
+public class FailedRunner extends AbstractTestNGCucumberTests {
 
-public class TestNGParallelRunner extends AbstractTestNGCucumberTests {
 	@Override
 	@DataProvider(parallel = true)
 	public Object[][] scenarios() {

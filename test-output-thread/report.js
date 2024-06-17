@@ -1,80 +1,80 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "ab3d8785-1681-4ad2-bb0e-977b723ea251",
-    "feature": "Login Page feature",
-    "scenario": "Login Page Title",
-    "start": 1706847360061,
-    "group": 27,
-    "content": "",
-    "tags": "",
-    "end": 1706847382314,
-    "className": "passed"
-  },
-  {
-    "id": "1d06e0a4-3fcc-4dee-9340-1acd88fdb8a2",
-    "feature": "Account Page Feature",
-    "scenario": "Accounts section count",
-    "start": 1706847360028,
-    "group": 26,
-    "content": "",
-    "tags": "",
-    "end": 1706847383611,
-    "className": "passed"
-  },
-  {
-    "id": "8bff2c52-38a0-4af8-ae9c-e3caa870c8b2",
-    "feature": "Account Page Feature",
-    "scenario": "Accounts page title",
-    "start": 1706847360050,
-    "group": 25,
-    "content": "",
-    "tags": "",
-    "end": 1706847386046,
-    "className": "passed"
-  },
-  {
-    "id": "92dac7a1-4435-4cbf-93cd-d5d51cc9586c",
+    "id": "3dc99fac-a4e4-43db-8e6a-3ac0db877e44",
     "feature": "Login Page feature",
     "scenario": "Login with Correct Credentials",
-    "start": 1706847360041,
+    "start": 1706901616637,
     "group": 29,
     "content": "",
-    "tags": "",
-    "end": 1706847386236,
-    "className": "passed"
+    "tags": "@login,@regression,@skip,",
+    "end": 1706901635104,
+    "className": "skipped"
   },
   {
-    "id": "1b674772-110e-43a0-a33e-b4cbb692b33c",
+    "id": "6ebfe19a-e182-4d0a-80d3-ed1523c27b67",
     "feature": "Account Page Feature",
     "scenario": "Accounts section count",
-    "start": 1706847360052,
+    "start": 1706901616623,
     "group": 31,
     "content": "",
     "tags": "",
-    "end": 1706847384340,
+    "end": 1706901635602,
     "className": "passed"
   },
   {
-    "id": "16ceae36-af2f-4270-a33b-6fdf04cdd5c4",
+    "id": "a550c63b-2257-47e8-b1c8-c7693bce9275",
     "feature": "Login Page feature",
-    "scenario": "Forgot Password Link",
-    "start": 1706847359896,
-    "group": 28,
+    "scenario": "Login Page Title",
+    "start": 1706901616628,
+    "group": 27,
     "content": "",
-    "tags": "",
-    "end": 1706847383770,
+    "tags": "@login,@smoke,",
+    "end": 1706901635042,
     "className": "passed"
   },
   {
-    "id": "e5163d0f-1e0f-4e5d-a1dd-10244e6c7e3a",
+    "id": "08e955d3-8547-492a-8923-5434c51a87e6",
     "feature": "Account Page Feature",
     "scenario": "Accounts page title",
-    "start": 1706847360060,
+    "start": 1706901616613,
     "group": 30,
     "content": "",
     "tags": "",
-    "end": 1706847386033,
+    "end": 1706901635648,
+    "className": "passed"
+  },
+  {
+    "id": "47ed2ebc-6a73-4c77-be17-0f8cc3ff78d7",
+    "feature": "Login Page feature",
+    "scenario": "Forgot Password Link",
+    "start": 1706901616481,
+    "group": 28,
+    "content": "",
+    "tags": "@login,@smoke,",
+    "end": 1706901634815,
+    "className": "passed"
+  },
+  {
+    "id": "70658be5-dd5c-4dfd-a091-ff8e32b89e1a",
+    "feature": "Account Page Feature",
+    "scenario": "Accounts page title",
+    "start": 1706901616601,
+    "group": 25,
+    "content": "",
+    "tags": "",
+    "end": 1706901635227,
+    "className": "passed"
+  },
+  {
+    "id": "3575931a-6745-494a-9489-8ee141b16322",
+    "feature": "Account Page Feature",
+    "scenario": "Accounts section count",
+    "start": 1706901616627,
+    "group": 26,
+    "content": "",
+    "tags": "",
+    "end": 1706901635679,
     "className": "passed"
   }
 ]);
